@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-12.0" />
+<project path="device/sony/taoshan" name="CyanogenMod/android_device_sony_taoshan" remote="github" revision="cm-12.0" />
+<project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.0" />
+<project path="kernel/sony/msm8930" name="CyanogenMod/android_kernel_sony_msm8930" remote="github" revision="cm-12.0" />
+<project path="device/sony/msm8960-common" name="CyanogenMod/android_device_sony_msm8960-common" remote="github" revision="cm-12.0" />
+</manifest>

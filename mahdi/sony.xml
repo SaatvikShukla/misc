@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+<!-- Dont want Tc from DU -->
+<!--
+  <remove-project name="arm-linux-androideabi-4.8" />
+  <remove-project name="arm-linux-androideabi-4.9" />
+  <remove-project name="linaro-arm-eabi-4.8" />
+  <remove-project name="arm-eabi-4.7" />
+  <remove-project name="arm-eabi-4.8" />
+  <remove-project name="arm-eabi-4.9" />
+-->
+
+<!-- 4.9-sm from Team Validus-->
+<!-- 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="Team-Validus/arm-linux-androideabi-4.9" remote="github" revision="lp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="Team-Validus/linaro-arm-eabi-4.9" remote="github" revision="master" />
+-->
+
+  <project name="CyanogenMod/android_device_sony_amami" path="device/sony/amami" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_device_sony_togari" path="device/sony/togari" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_device_sony_togari_gpe" path="device/sony/togari_gpe" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_device_sony_honami" path="device/sony/honami" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.0" />
+  <project name="Alx31/android_device_sony_common" path="device/sony/common" remote="github" revision="m5_bootsplash" />
+  <project name="CyanogenMod/android_device_sony_qcom-common" path="device/sony/qcom-common" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-12.0" />
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-12.0" />
+  <project name="Alx31/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="kexec" />
+</manifest>
+
